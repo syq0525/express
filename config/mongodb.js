@@ -3,10 +3,10 @@
  * @Author: ShiYangquan
  * @Date: 2019-12-24 14:00:02
  * @LastEditors  : ShiYangquan
- * @LastEditTime : 2020-01-16 16:44:29
+ * @LastEditTime : 2020-01-20 10:04:07
  */
 const mongoose = require("mongoose");
-const env = process.env.NODE_ENV
+const env = process.env.NODE_ENV||"development"
 let dburl;
 
 if(env.includes('development')){
